@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.abcd.mukut1.User8.SalesAndGrowthControler">
+   <children>
+      <Label layoutX="156.0" prefHeight="54.0" prefWidth="286.0" text=" Sales and Growth">
+         <font>
+            <Font name="System Italic" size="36.0" />
+         </font>
+      </Label>
+      <TableView layoutX="25.0" layoutY="88.0" prefHeight="78.0" prefWidth="547.0">
+        <columns>
+          <TableColumn prefWidth="128.79998779296875" text="Sales Runing 15 days" />
+          <TableColumn prefWidth="128.00006103515625" text="Sales Last 15 days" />
+            <TableColumn prefWidth="132.79998779296875" text="  Sales Difference" />
+            <TableColumn prefWidth="153.59991455078125" text=" Revenue runing 15 days" />
+        </columns>
+      </TableView>
+      <Button layoutX="26.0" layoutY="54.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="104.0" text=" Sales Report" />
+      <Button layoutX="24.0" layoutY="187.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="152.0" text="Trends for least 15 days" />
+      <TableView layoutX="24.0" layoutY="222.0" prefHeight="78.0" prefWidth="529.0">
+         <columns>
+            <TableColumn prefWidth="111.20001220703125" text="Most saling Item" />
+            <TableColumn prefWidth="143.20001220703125" text="2nd Most saling Item" />
+            <TableColumn prefWidth="140.0" text=" 3rd Most saling Item" />
+            <TableColumn prefWidth="131.99993896484375" text=" 4th most saling Item" />
+         </columns>
+      </TableView>
+      <Button layoutX="166.0" layoutY="327.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="112.0" text="Revenue Targets">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextField layoutX="24.0" layoutY="327.0" prefHeight="26.0" prefWidth="130.0" promptText="TK" />
+      <Button layoutX="491.0" layoutY="353.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="62.0" style="-fx-background-color: Green;" text="Home">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="329.0" layoutY="327.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="122.0" style="-fx-background-color: Blue;" text="Growth Graph" textFill="#fffdfd">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

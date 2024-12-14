@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.abcd.mukut1.HandleCustomerRelations">
+   <children>
+      <Label layoutX="24.0" layoutY="32.0" prefHeight="46.0" prefWidth="282.0" style="-fx-border-color: black;" text="     Customer feedback">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <TableView layoutX="24.0" layoutY="78.0" prefHeight="303.0" prefWidth="282.0">
+        <columns>
+          <TableColumn prefWidth="71.99999618530273" text="Customer" />
+          <TableColumn prefWidth="41.600006103515625" text="Iteam" />
+            <TableColumn prefWidth="165.59999084472656" text=" Feedback" />
+        </columns>
+      </TableView>
+      <Label layoutX="335.0" layoutY="23.0" prefHeight="38.0" prefWidth="251.0" style="-fx-border-color: black; -fx-background-color: pink;" text=" See good feedbacks">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <TableView layoutX="335.0" layoutY="62.0" prefHeight="117.0" prefWidth="251.0">
+         <columns>
+            <TableColumn prefWidth="39.20001220703125" text="Iteam" />
+            <TableColumn prefWidth="180.79998779296875" text=" Feedback" />
+            <TableColumn prefWidth="63.20001220703125" text="Customer" />
+         </columns>
+      </TableView>
+      <Label layoutX="335.0" layoutY="334.0" prefHeight="19.0" prefWidth="251.0" style="-fx-border-color: black; -fx-background-color: skyblue;" text="                     loyalty programs">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <TableView layoutX="335.0" layoutY="212.0" prefHeight="106.0" prefWidth="251.0">
+         <columns>
+            <TableColumn prefWidth="56.79998779296875" text="No" />
+            <TableColumn prefWidth="192.79998779296875" text="Plane" />
+         </columns>
+      </TableView>
+      <Button layoutX="335.0" layoutY="361.0" mnemonicParsing="false" text="approved" />
+      <TextField layoutX="424.0" layoutY="361.0" />
+      <Label layoutX="335.0" layoutY="188.0" prefHeight="24.0" prefWidth="251.0" style="-fx-border-color: black; -fx-background-color: orange;" text="                     loyalty programs">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

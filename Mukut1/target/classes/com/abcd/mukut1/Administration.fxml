@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.abcd.mukut1.AdministrationControler">
+   <children>
+      <Label layoutX="33.0" layoutY="32.0" prefHeight="70.0" prefWidth="207.0" text="  Administrator">
+         <font>
+            <Font name="System Bold Italic" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="276.0" layoutY="339.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="90.0" style="-fx-background-color: red;" text="    Log Out">
+         <font>
+            <Font name="Californian FB Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="60.0" layoutY="205.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="138.0" text="Market Strategy" textFill="#1813b1">
+         <font>
+            <Font name="Californian FB Italic" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="60.0" layoutY="254.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="195.0" text="Customers  Relations" textFill="#ea0606">
+         <font>
+            <Font name="Californian FB Italic" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="351.0" layoutY="205.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="138.0" text="Performance" textFill="#0297e7">
+         <font>
+            <Font name="Californian FB Italic" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="213.0" layoutY="205.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="126.0" text="Financials" textFill="#ac1498d1">
+         <font>
+            <Font name="Californian FB Italic" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="351.0" layoutY="158.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="138.0" text="Regular Updates" textFill="#78b409">
+         <font>
+            <Font name="Californian FB Italic" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="60.0" layoutY="158.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="137.0" text="Sales and Growth" textFill="#17a417">
+         <font>
+            <Font name="Californian FB Italic" size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="290.0" layoutY="23.0" prefHeight="18.0" prefWidth="275.0" style="-fx-background-color: skyblue;" text=" Admin name :- " />
+      <Label layoutX="290.0" layoutY="48.0" prefHeight="18.0" prefWidth="275.0" style="-fx-background-color: lightblue;" text=" Admin ID :- " />
+      <Button layoutX="268.0" layoutY="254.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="217.0" text="Audit and Complains" textFill="#461212">
+         <font>
+            <Font name="Californian FB Italic" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

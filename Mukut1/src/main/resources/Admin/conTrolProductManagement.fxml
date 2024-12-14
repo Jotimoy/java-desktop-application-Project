@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="474.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.abcd.mukut1.User8.ConTrolProductManagementController">
+   <children>
+      <Label layoutX="95.0" layoutY="14.0" prefHeight="36.0" prefWidth="331.0" text="Control Product Management">
+         <font>
+            <Font name="System Italic" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="71.0" layoutY="402.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="86.0" style="-fx-background-color: blure; -fx-background-color: blue;" text="Update " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <TableView layoutX="47.0" layoutY="75.0" prefHeight="182.0" prefWidth="506.0">
+        <columns>
+          <TableColumn prefWidth="76.79998779296875" text=" Item Name" />
+            <TableColumn prefWidth="83.20001220703125" text=" Item Amount" />
+            <TableColumn prefWidth="98.39996337890625" text="Wholesale Price" />
+            <TableColumn prefWidth="81.60003662109375" text=" Extra Cost" />
+            <TableColumn prefWidth="81.60003662109375" text=" Price / Item" />
+            <TableColumn prefWidth="81.60003662109375" text=" Final Price" />
+        </columns>
+      </TableView>
+      <TextField layoutX="47.0" layoutY="274.0" promptText="Item ID" />
+      <TextField layoutX="47.0" layoutY="352.0" promptText="Item Price" />
+      <TextField layoutX="47.0" layoutY="313.0" promptText="Item Name" />
+      <Button layoutX="401.0" layoutY="274.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" style="-fx-border-color: black;" text="Item ID Genarator" textFill="#201f1f">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="466.0" layoutY="406.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="86.0" style="-fx-background-color: green;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="401.0" layoutY="316.0" prefHeight="18.0" prefWidth="150.0" style="-fx-background-color: orange;" text="Label" />
+   </children>
+</AnchorPane>
